@@ -1,3 +1,28 @@
 body {
-  background-color: aliceblue;
+  background-color: rgb(211, 211, 211);
+  text-align: center;
+  background-image: url(/img/earthquake-getty-images.png);
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+
+h1 {
+  color: rgb(46, 9, 9);
+  font-size: 35px;
+  text-decoration: underline;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+#sources {
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+  max-width: 50%;
 }
